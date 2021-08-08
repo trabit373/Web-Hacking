@@ -62,4 +62,3 @@ def baner():
         except:
             print("")
             break
-baner()
