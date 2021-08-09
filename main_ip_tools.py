@@ -32,20 +32,27 @@ def _all_():
         if number == 1:
             import ip_target
             ip_target._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 2:
             import bay_pass_cloud_flare
             bay_pass_cloud_flare._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 3:
             import ipapi
             ipapi._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 00:
-            pass
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
         
         else:
