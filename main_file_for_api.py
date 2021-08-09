@@ -34,26 +34,35 @@ def _all_():
         if number == 1:
             import main_network
             main_network._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 2:
             import main_dns_queries
             main_dns_queries._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 3:
             import main_ip_address
             main_ip_address._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
         
         elif number == 4:
             import main_web_tools
             main_web_tools._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 00:
-            pass
-            # در اینجا کدی میزنیم که به بخش قبل برود
+           import main_information_data
+           main_information_data._all_()
+           # در اینجا کدی میزنیم که به بخش قبل برود
         
         else:
             time.sleep(0.4)
