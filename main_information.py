@@ -30,16 +30,21 @@ def _all_():
         if number == 1:
             import builtwith_me
             builtwith_me._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 2:
             import site_on_server
             site_on_server._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
 
         elif number == 00:
-            pass
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
         
         else:
