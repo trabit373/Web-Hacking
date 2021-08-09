@@ -32,20 +32,27 @@ def _all_():
         if number == 1:
             import httpheaders
             httpheaders._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 2:
             import pagelinks
             pagelinks._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 3:
             import analyticslookup
             analyticslookup._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 00:
-            pass
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
         
         else:
