@@ -112,3 +112,4 @@ def _all_():
             print(Fore.RED + "\n[-] Your Number Is Not Found !")
             time.sleep(0.4)
             sys.exit()
+_all_()
