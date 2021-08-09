@@ -36,9 +36,9 @@ def _all_():
         count = 1
         print("")
         for i in info["domainArray"]:
-            if "https://" or "http://" not in target:
-                target = "https://" + target
-                data_me = Fore.LIGHTBLACK_EX + f"  [{count}] ~ "   + Fore.CYAN + str(i)
+            if "https://" or "http://" not in i[0]:
+                i[0] = "https://" + i[0]
+                data_me = Fore.LIGHTBLACK_EX + f"  [{count}] ~ "   + Fore.CYAN + str(i[0])
             else:
                 data_me = Fore.LIGHTBLACK_EX + f"  [{count}] ~ "   + Fore.CYAN + str(i[0])
             print(data_me)
