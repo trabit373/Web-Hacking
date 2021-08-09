@@ -18,7 +18,7 @@ def _all_():
         import builtwith
     except:
         time.sleep(1)
-        print("[-] Pleass Install The Librery --> colorama")
+        print("[-] Pleass Install The Librery --> builtwith")
         sys.exit()
     try:
         import ipapi
