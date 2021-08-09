@@ -38,36 +38,49 @@ def _all_():
         if number == 1:
             import dns_lookup
             dns_lookup._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 2:
             import reversedns
             reversedns._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 3:
             import hostserch
             hostserch._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 4:
             import findshareddns
             findshareddns._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 5:
             import zonetransfer
             zonetransfer._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 6:
             import whois
             whois._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
 
         elif number == 00:
-            pass
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
         
         else:
