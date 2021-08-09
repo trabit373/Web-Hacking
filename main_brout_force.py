@@ -30,16 +30,21 @@ def _all_():
         if number == 1:
             import brout_force_wordpress
             brout_force_wordpress._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 2:
             import brout_force_all_web_site
             brout_force_all_web_site._all_()
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
 
         elif number == 00:
-            pass
+            import main_information_data
+            main_information_data._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
         
         else:
