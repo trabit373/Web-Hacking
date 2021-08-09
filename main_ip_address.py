@@ -38,36 +38,49 @@ def _all_():
         if number == 1:
             import geoip
             geoip._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 2:
             import reverseiplookup
             reverseiplookup._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 3:
             import nmap
             nmap._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 4:
             import subnetcalc
             subnetcalc._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 5:
             import aslookup
             aslookup._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
         elif number == 6:
             import bannerlookup
             bannerlookup._all_()
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
 
 
         elif number == 00:
-            pass
+            import main_file_for_api
+            main_file_for_api._all_()
             # در اینجا کدی میزنیم که به بخش قبل برود
         
         else:
