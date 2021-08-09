@@ -37,14 +37,21 @@ def _all_():
         time.sleep(0.4)
         sys.exit()
     else:
+        if "http://" or "https://" not in target:
+          target = "https://" + target
         try:
             info = builtwith.parse(target)
         except:
             time.sleep(1)
             print("")
+            time.sleep(1)
         else:
+            count = 1
             time.sleep(0.6)
-            print(Fore.GREEN + "f\n{info}")
+            #print(Fore.GREEN + f"\n{info}")
+            for keys,values in info.items():
+              print( Fore.YELLOW + "[" + Fore.RED + f"{str(count)}"+ Fore.YELLOW + "]"+ Fore.BLUE +  " ~ "+Fore.GREEN + f"{keys}    " +Fore.BLUE + ":" + Fore.CYAN + f"    {str(values)}")
+              count += 1
             time.sleep(0.3)
 
     time.sleep(0.3)
