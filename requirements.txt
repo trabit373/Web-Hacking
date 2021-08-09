@@ -1,0 +1,7 @@
+colorama
+builtwith
+ipapi
+socket
+requests
+json
+platform
